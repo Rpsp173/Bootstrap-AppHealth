@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+
+.navbar-brand{
+    font-weight: 500;
+}
+.navbar-brand span{
+    margin-right: 7px;
+}
+.navbar-brand span img{
+    width: 40px;
+}
+.navbar-nav{
+    margin-left: 160px;
+}
+.nav-link{
+    color: black;
+    font-weight: 300;
+}
+.dropdown-menu{
+    top: 126% !important;
+}
+.dropdown-menu{
+    border-radius: 0px;
+}
+.btn{
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.btnw{
+    background-color: #5ba533;
+    color: #fff;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    outline: none;
+    border-width: 2px;
+}
+.btnw:hover{
+    border: 2px solid #6278df !important;
+    background-color: #fff !important;
+    color: #6278df !important;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.872) !important;
+}
+
+.bannar{
+    background: url("./img/mbr-10.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 180px 0px;
+    position: relative;
+    z-index: 1;
+}
+.bannar::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 49, 49, 0.463);
+    z-index: -1;
+}
+
+.bannar-content{
+    margin-top: -60px;
+}
+.bannar-content h2{
+    font-size: 50px;
+}
+.bannar-content h4{
+    font-size: 22px;
+}
+.form-div{
+    width: 60%;
+    margin: auto;
+}
+.bannar-content input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(98, 120, 223,0.2);
+}
+
+.number-content p{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.activity{
+    background-color: #f7f9ff;
+}
+.activity-content{
+    margin-top: 140px;
+}
+
+.card{
+    overflow: hidden;
+    height: 220px;
+    border: none;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    margin-bottom: 40px !important;
+    margin-right: 20px;
+}
+.card-imag img{
+    height: 100%;
+    object-fit: cover;
+}
+.card-text{
+    font-size: 14px;
+}
+
+.application-item{
+    margin-bottom: 30px;
+    margin-right: 10px;
+    position: relative;
+    transition: .4s;
+}
+.application-item::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(148, 155, 208, .7);
+}
+.application-item:hover::before{
+    width: 100%;
+}
+
+.user-count{
+    background-color: #f7f9ff;
+}
+.user-count-item{
+    width: 80%;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border-radius: 5px;
+    margin: auto;
+}
+.user-count-item ul{
+    padding: 0;
+}
+.user-count-item ul li{
+    padding: 15px 0px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+.user-count-item ul li span{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #6278df;
+}
+
+.user-count-item a{
+    display: inline-block;
+    width: 90%;
+    color: #6278df;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 12px 0px;
+}
+.user-count-item a:hover{
+    background-color: black !important;
+    color: #fff !important;
+}
+.user-count-item:hover.user-count-item a{
+    background-color: #6278df;
+    color: #fff;
+}
+
+.comment-content h4{
+    font-size: 25px;    
+}
+.comment-content p{
+    font-size: 17px;
+    color: rgba(128, 128, 128);
+    font-weight: 300;
+}
+.comment-content span i{
+    font-size: 100px;
+    color: rgba(128, 128, 128, .2);
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.users img{
+    width: 80px;
+    border-radius: 50%;
+}
+.user-info{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.team{
+    background-color: #f7f9ff;
+}
+.team-content p{
+    font-size: 19px;
+}
+.team-section{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    margin-top: 150px;
+    padding: 10px 20px;
+}
+.team-section img {
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+.btnx{
+    padding: 5px 10px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    transition: .4s;
+}
+.btnx:hover{
+    background-color: gray !important;
+    color: white !important;
+}
+
+.contact-items{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.contact-item{
+    margin-top: 40px;
+}
+.contact-item a{
+    background-color: #6278df;
+    color: #fff;
+    width: 40%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s !important;
+    margin: auto;
+    margin-top: 30px;
+    border-width: 2px;
+}
+.contact-item a:hover{
+    border: 2px solid rgb(98, 120, 223) !important;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.4) !important;
+}
+input{
+    width: 100%;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223,0.2);
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid rgba(98, 120, 223,0.2);
+    padding: 15px;
+    border-radius: 5px;
+}
+input:focus{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223,0.8);
+    border: 1px solid rgba(98, 120, 223,0.8);
+}
+textarea{
+    width: 100%;
+    padding: 20px;
+    height: 180px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    margin-bottom: 20px;
+    border: 1px solid rgba(98, 120, 223,0.2);
+    border-radius: 5px;
+    outline: none;
+}
+textarea:focus{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 120, 223,0.8);
+    border: 1px solid rgba(98, 120, 223,0.8);
+}
+.add-btn a{
+    padding: 13px 30px !important;
+    font-size: 20px;
+}
+.add-btn a span i{
+    margin-right: 7px;
+    font-size: 23px;
+}
+.btna{
+    border: 2px solid #5ba533;
+    color: #5ba533;
+}
+.btna:hover{
+    background-color: rgb(91, 165, 51) !important;
+    color: #fff !important;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(91, 165, 51, 0.874);
+}
+.btnb{
+    margin-left: 20px;
+    background-color: rgb(91, 165, 51);
+    color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(91, 165, 51, 0.874);
+    border-width: 2px;
+}    
+.btnb:hover{
+    border: 2px solid #5ba533;
+    color: #5ba533;
+}   
+
+.add-imag{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+footer p span{
+    font-size: 23px;
+    font-weight: bolder;
+}
